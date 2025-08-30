@@ -63,3 +63,12 @@ body{
 .hide{
     display: none;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
